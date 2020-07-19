@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: grid;
+  border: 1px dashed;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+}
+
+.box{
+
+}
