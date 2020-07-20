@@ -1,15 +1,76 @@
 .navigation {
-  display: flex;
-  flex-direction: row;
+  border: 1px dashed;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-start: 1;
 }
 
 .container {
   display: grid;
   border: 1px dashed;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(6, 2fr);
+  grid-gap: 10px;
 }
 
-.box{
+.box1 {
+  border-color: red;
+  border-style: double;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 2;
+  text-align: center;
+}
 
+.box2 {
+  border-color: orange;
+  border-style: double;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 2;
+  text-align: center;
+}
+.box3 {
+  border-color: yellow;
+  border-style: double;
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 2;
+  text-align: center;
+}
+.box4 {
+  border-color: green;
+  border-style: double;
+  grid-column: 4 / span 1;
+  grid-row: 2 / span 2;
+  text-align: center;
+}
+
+.box5 {
+  border-color: blue;
+  border-style: double;
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 2;
+  text-align: center;
+}
+
+.box6 {
+  border-color: indigo;
+  border-style: double;
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 2;
+  text-align: center;
+}
+
+.box7 {
+  border-color: violet;
+  border-style: double;
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 2;
+  text-align: center;
+}
+
+.box8 {
+  border-color: teal;
+  border-style: double;
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 2;
+  text-align: center;
 }
