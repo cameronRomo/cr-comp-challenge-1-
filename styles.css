@@ -1,0 +1,93 @@
+.navigation {
+  border: 1px dashed;
+  background-color: #2B2B2B;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-start: 4;
+}
+
+h2 {
+  color: white;
+}
+
+h5 {
+  color: #3FB5FD;
+}
+
+h4 {
+  color: #7C7C7C;
+}
+.container {
+  display: grid;
+  border: 1px dashed;
+  background-color: #EFEFEF;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(6, 2fr);
+  grid-gap: 10px;
+}
+
+h1{
+  color: #4D4D4D;
+}
+
+.box1 {
+  border-color: red;
+  border-style: double;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 2;
+  text-align: center;
+}
+
+.box2 {
+  border-color: orange;
+  border-style: double;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 2;
+  text-align: center;
+}
+.box3 {
+  border-color: yellow;
+  border-style: double;
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 2;
+  text-align: center;
+}
+.box4 {
+  border-color: green;
+  border-style: double;
+  grid-column: 4 / span 1;
+  grid-row: 2 / span 2;
+  text-align: center;
+}
+
+.box5 {
+  border-color: blue;
+  border-style: double;
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 2;
+  text-align: center;
+}
+
+.box6 {
+  border-color: indigo;
+  border-style: double;
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 2;
+  text-align: center;
+}
+
+.box7 {
+  border-color: violet;
+  border-style: double;
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 2;
+  text-align: center;
+}
+
+.box8 {
+  border-color: teal;
+  border-style: double;
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 2;
+  text-align: center;
+}
